@@ -19,6 +19,6 @@ end
 
 # Ensure service state
 # @since 0.1.0
-service node['ssm_agent']['service']['name'] do
-  action node['ssm_agent']['service']['actions']
-end
+# service node['ssm_agent']['service']['name'] do
+#   action node['ssm_agent']['service']['actions']
+# end
